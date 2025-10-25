@@ -1,9 +1,9 @@
-import Forms from "./components/Forms/Forms";
+import Apps from "./components/Apps";
 
 const App = () => {
   return (
     <div>
-      <Forms />
+      <Apps />
     </div>
   );
 };
