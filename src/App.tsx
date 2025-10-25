@@ -1,11 +1,10 @@
-import { Suspense } from "react";
-import FetchTodo from "./components/FetchTodo";
+import Forms from "./components/Forms/Forms";
 
 const App = () => {
   return (
-    <Suspense>
-      <FetchTodo />
-    </Suspense>
+    <div>
+      <Forms />
+    </div>
   );
 };
 export default App;
